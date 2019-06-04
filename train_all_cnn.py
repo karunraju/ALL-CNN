@@ -14,8 +14,8 @@ import numpy as np
 from torch.utils.data.dataset import Dataset
 from torch.utils.data import DataLoader
 
-from hw2.all_cnn import all_cnn_module
-from hw2.preprocessing import cifar_10_preprocess
+from all_cnn import all_cnn_module
+from preprocessing import cifar_10_preprocess
 
 
 #DEBUG = True
